@@ -42,9 +42,11 @@ a:hover {
 }
 
 #logo{
-  color: rgb(225, 0, 152);
+   color: #FBEFEF;
   font-size: 35px;
   font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
 }
 
 /* Mis en forme de la baseline */
@@ -69,14 +71,33 @@ a:hover {
   text-decoration: none;
 }
 
- .feature {border: 2px solid #848484;
- margin: 15px;
+ .feature {border: 12px solid #1C1C1C;
+margin: 15px;
 padding: 15px 0;
 text-align: center;
 width: 400px;
-background: #848484}
+background: #F6CEF5
+}
 
 #apropos{
   margin: 0 auto;
   width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
 }
